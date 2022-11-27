@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 4px solid white;
+    box-shadow: 10px 10px 20px white;
+    
+}
+
+#scoreText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: white;
+}
+
+#resetBtn{
+    font-family: 'Courier New', Courier, monospace;
+    border: 4px solid white;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#resetBtn:hover{
+    border: 4px solid transparent;
+    background-color: white;
+    color: black;
+}
